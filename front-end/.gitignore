@@ -1,0 +1,49 @@
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Dependencies
+node_modules/
+
+# Build files
+dist/
+dist-ssr/
+.out/
+.next/
+.cache/
+.vite/    # Added for Vite cache
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Editor/IDE files
+.vscode/
+!.vscode/extensions.json
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# System files
+Thumbs.db
+desktop.ini
+
+# Optional: Ignore lock files if you don’t want to track exact dependency versions
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+
+# Linter/formatter cache
+eslintcache
+prettier/
+.prettierignore
